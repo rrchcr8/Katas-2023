@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics.Metrics;
-
+https://www.codewars.com/kata/515bb423de843ea99400000a/train/csharp
 public class PagnationHelper<T>
 {
     private IList<T> collection;
