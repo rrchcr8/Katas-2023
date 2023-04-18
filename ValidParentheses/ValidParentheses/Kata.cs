@@ -10,12 +10,7 @@ public class Kata
 {
     public static bool ValidParentheses(string str)
     {
-        int i = 0;
-        while (str.Contains("()"))
-        {
-            i = str.LastIndexOf("()");
-            str=str.Remove(i, 2);
-        }
-        return str.Length.Equals(0);
+        while ((str = str.Replace("()", "")).Contains("()")) ;
+        return str.Length == 0;
     }
 }
